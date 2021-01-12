@@ -27,14 +27,15 @@ header{
       ul{
         display: flex;
         height: 100%;
-        font-size: 15px;
+        font-size: 16px;
         li{
           align-self: center;
           padding-right: 50px;
           font-weight: 600;
         }
         a{
-          color: #9A9793;
+          color: #514D73;
+          font-weight: 500;
         }
         i{
           font-size: 10px;
@@ -54,7 +55,7 @@ header{
       }
       span{
         align-self: center;
-        font-weight: 800;
+        font-weight: 600;
         font-size: 16px;
         margin-right: 20px;
       }
@@ -107,7 +108,32 @@ header{
       width: 50%;
       height: 100%;
       float: left;
-      padding: 190px 90px 0 375px;
+      padding: 185px 90px 0 375px;
+      h2{
+        font-weight: 500;
+        font-size: 22px;
+        color: #2DB19C;
+        margin-bottom: 20px;
+      }
+      p:first-of-type{
+        color: #333434;
+        font-size: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 55px;
+        margin-bottom: 24px;
+      }
+      p:last-of-type{
+        color: #595959;
+        font-size: 17.5px;
+        font-weight: 500;
+        margin-bottom: 37px;
+      }
+      button{
+        @include buttonGreen;
+        width: 200px;
+        height: 52px;
+      }
     }
     .jumbotron_img{
       width: 50%;

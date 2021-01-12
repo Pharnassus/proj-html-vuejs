@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .clearfix {
@@ -49,7 +49,7 @@ header .header_nav .navbar {
 header .header_nav .navbar ul {
   display: flex;
   height: 100%;
-  font-size: 15px;
+  font-size: 16px;
 }
 header .header_nav .navbar ul li {
   align-self: center;
@@ -57,7 +57,8 @@ header .header_nav .navbar ul li {
   font-weight: 600;
 }
 header .header_nav .navbar ul a {
-  color: #9A9793;
+  color: #514D73;
+  font-weight: 500;
 }
 header .header_nav .navbar ul i {
   font-size: 10px;
@@ -76,7 +77,7 @@ header .header_nav .language img {
 }
 header .header_nav .language span {
   align-self: center;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 16px;
   margin-right: 20px;
 }
@@ -125,7 +126,40 @@ header .jumbotron .new_challenges {
   width: 50%;
   height: 100%;
   float: left;
-  padding: 190px 90px 0 375px;
+  padding: 185px 90px 0 375px;
+}
+header .jumbotron .new_challenges h2 {
+  font-weight: 500;
+  font-size: 22px;
+  color: #2DB19C;
+  margin-bottom: 20px;
+}
+header .jumbotron .new_challenges p:first-of-type {
+  color: #333434;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 55px;
+  margin-bottom: 24px;
+}
+header .jumbotron .new_challenges p:last-of-type {
+  color: #595959;
+  font-size: 17.5px;
+  font-weight: 500;
+  margin-bottom: 37px;
+}
+header .jumbotron .new_challenges button {
+  background: #2DB19C;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  width: 200px;
+  height: 52px;
+}
+header .jumbotron .new_challenges button:focus {
+  outline: -webkit-focus-ring-color auto 0px;
 }
 header .jumbotron .jumbotron_img {
   width: 50%;
