@@ -3,7 +3,7 @@ header{
   width: 100%;
   height: 850px;
 
-  .header_top{
+  .header_nav{
     width: calc(100% - 170px);
     height: 80px;
     margin-left: 170px;
@@ -91,15 +91,38 @@ header{
       }
       i{
         font-size: 16px;
-        padding: 0 13px;
+        // padding: 0 13px;
         cursor: pointer;
       }
     }
   }
 
-  .header_jumbotron{
+  .jumbotron{
     background: #EFF2F6;
     width: 100%;
     height: 770px;
+    overflow: hidden;
+
+    .new_challenges{
+      width: 50%;
+      height: 100%;
+      float: left;
+      padding: 190px 90px 0 375px;
+    }
+    .jumbotron_img{
+      width: 50%;
+      height: 100%;
+      float: left;
+      position: relative;
+      img:first-child{
+        transform: rotate(280deg);
+      }
+      img:last-child{
+        position: absolute;
+        top: 53%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+      }
+    }
   }
 }

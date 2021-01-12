@@ -24,82 +24,82 @@ header {
   width: 100%;
   height: 850px;
 }
-header .header_top {
+header .header_nav {
   width: calc(100% - 170px);
   height: 80px;
   margin-left: 170px;
 }
-header .header_top .logo {
+header .header_nav .logo {
   width: 495px;
   height: 100%;
   float: left;
   display: flex;
 }
-header .header_top .logo img {
+header .header_nav .logo img {
   width: 160px;
   height: 25px;
   align-self: center;
   cursor: pointer;
 }
-header .header_top .navbar {
+header .header_nav .navbar {
   width: 820px;
   height: 100%;
   float: left;
 }
-header .header_top .navbar ul {
+header .header_nav .navbar ul {
   display: flex;
   height: 100%;
   font-size: 15px;
 }
-header .header_top .navbar ul li {
+header .header_nav .navbar ul li {
   align-self: center;
   padding-right: 50px;
   font-weight: 600;
 }
-header .header_top .navbar ul a {
+header .header_nav .navbar ul a {
   color: #9A9793;
 }
-header .header_top .navbar ul i {
+header .header_nav .navbar ul i {
   font-size: 10px;
   margin-left: 5px;
 }
-header .header_top .language {
+header .header_nav .language {
   width: 205px;
   height: 100%;
   float: left;
   display: flex;
 }
-header .header_top .language img {
+header .header_nav .language img {
   align-self: center;
   padding: 0 16px;
   cursor: pointer;
 }
-header .header_top .language span {
+header .header_nav .language span {
   align-self: center;
   font-weight: 800;
   font-size: 16px;
   margin-right: 20px;
 }
-header .header_top .language a {
+header .header_nav .language a {
   display: flex;
   color: #55543B;
 }
-header .header_top .language a i {
+header .header_nav .language a i {
   font-size: 10px;
   margin-left: 8px;
   align-self: center;
 }
-header .header_top .language i {
+header .header_nav .language i {
   align-self: center;
   font-size: 18px;
   color: #55543B;
 }
-header .header_top .search {
+header .header_nav .search {
   width: 230px;
   height: 100%;
   float: left;
 }
-header .header_top .search input {
+header .header_nav .search input {
   width: calc(100% - 46px);
   height: 100%;
   box-sizing: border-box;
@@ -108,16 +108,37 @@ header .header_top .search input {
   font-size: 16px;
   padding: 0 22px;
 }
-header .header_top .search input:focus {
+header .header_nav .search input:focus {
   outline: -webkit-focus-ring-color auto 0px;
 }
-header .header_top .search i {
+header .header_nav .search i {
   font-size: 16px;
-  padding: 0 13px;
   cursor: pointer;
 }
-header .header_jumbotron {
+header .jumbotron {
   background: #EFF2F6;
   width: 100%;
   height: 770px;
+  overflow: hidden;
+}
+header .jumbotron .new_challenges {
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 190px 90px 0 375px;
+}
+header .jumbotron .jumbotron_img {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+header .jumbotron .jumbotron_img img:first-child {
+  transform: rotate(280deg);
+}
+header .jumbotron .jumbotron_img img:last-child {
+  position: absolute;
+  top: 53%;
+  left: 35%;
+  transform: translate(-50%, -50%);
 }
