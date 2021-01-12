@@ -1,9 +1,8 @@
-alert('prova');
 
 var app = new Vue(
   {
     el: '#root',
-    data: {      
+    data: {
     },
     methods: {
     },

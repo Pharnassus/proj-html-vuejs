@@ -5,7 +5,10 @@
   font-family: 'Lato', sans-serif;
 }
 body{
-  background: orange;
+  // background: orange;
+}
+.clearfix{
+  @include clearfix;
 }
 
 li{
