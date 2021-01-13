@@ -161,6 +161,10 @@ header .jumbotron .new_challenges button {
 header .jumbotron .new_challenges button:focus {
   outline: -webkit-focus-ring-color auto 0px;
 }
+header .jumbotron .new_challenges button:hover {
+  background: #3F3A64;
+  color: white;
+}
 header .jumbotron .jumbotron_img {
   width: 50%;
   height: 100%;
@@ -244,10 +248,19 @@ main .main1 button {
 main .main1 button:focus {
   outline: -webkit-focus-ring-color auto 0px;
 }
+main .main1 button:hover {
+  background: #3F3A64;
+  color: white;
+}
 main .main1 button.white {
   background: white;
   color: #2DB19C;
   border: 2px solid #EEEEEE;
+}
+main .main1 button.white:hover {
+  background: #3F3A64;
+  color: white;
+  border: 2px solid #3F3A64;
 }
 main .main2 {
   background: #F8F8F8;
@@ -273,14 +286,14 @@ main .main2 p.subtitle {
   font-weight: 600;
   margin-bottom: 40px;
 }
-main .main2 .box_explore {
+main .main2 .box_explore3 {
   width: 1170px;
   height: 470px;
   margin: 25px auto;
   display: flex;
   justify-content: space-between;
 }
-main .main2 .box_explore .inside_box_explore {
+main .main2 .box_explore3 .inside_box_explore3 {
   background: white;
   width: 31.7%;
   height: 100%;
@@ -289,37 +302,42 @@ main .main2 .box_explore .inside_box_explore {
   box-shadow: 0px 10px 70px 3px #F0F0F0;
   overflow: hidden;
 }
-main .main2 .box_explore .inside_box_explore img {
+main .main2 .box_explore3 .inside_box_explore3 img {
   width: 100%;
 }
-main .main2 .box_explore .inside_box_explore .text_inside_box_explore {
+main .main2 .box_explore3 .inside_box_explore3 .text_inside_box_explore3 {
   width: 100%;
   height: 155px;
   border-bottom: 1px solid #EEEEEE;
 }
-main .main2 .box_explore .inside_box_explore .text_inside_box_explore h3 {
+main .main2 .box_explore3 .inside_box_explore3 .text_inside_box_explore3 h3 {
   text-transform: capitalize;
   font-weight: 600;
   font-size: 22px;
   margin-top: 20px;
 }
-main .main2 .box_explore .inside_box_explore .text_inside_box_explore p {
+main .main2 .box_explore3 .inside_box_explore3 .text_inside_box_explore3 p {
   font-size: 13.5px;
   color: #717171;
   padding: 0 40px;
   margin-top: 10px;
   line-height: 28px;
 }
-main .main2 .box_explore .inside_box_explore a {
+main .main2 .box_explore3 .inside_box_explore3 a {
   display: inline-block;
-  height: 120px;
-  line-height: 60px;
+  width: 100%;
+  height: 58px;
+  line-height: 58px;
   vertical-align: middle;
   color: #2DB19C;
   font-size: 12px;
   font-weight: 700;
 }
-main .main2 .box_explore .inside_box_explore a i {
+main .main2 .box_explore3 .inside_box_explore3 a:hover {
+  background: #2DB19C;
+  color: white;
+}
+main .main2 .box_explore3 .inside_box_explore3 a i {
   margin-left: 10px;
   font-size: 11px;
 }
@@ -334,7 +352,131 @@ main .main2 .circle_slider i:first-child {
 }
 main .main2 .circle_slider i {
   display: inline-block;
-  padding-left: 15px;
+  margin-left: 15px;
   color: #D9D9D9;
   font-size: 9px;
+  cursor: pointer;
+}
+main .main3 {
+  width: 100%;
+  height: 1035px;
+  text-align: center;
+  padding: 120px 0 97px;
+}
+main .main3 h2 {
+  font-weight: 500;
+  font-size: 22px;
+  color: #2DB19C;
+  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+main .main3 p.subtitle {
+  display: inline-block;
+  width: 52.6%;
+  margin: 0 auto;
+  padding: 0 12px;
+  color: #333434;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+main .main3 .box_explore4 {
+  width: 1623px;
+  height: 520px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+main .main3 .box_explore4 .inside_box_explore4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  width: 23.6%;
+  height: 100%;
+  float: left;
+  border-radius: 5px;
+  overflow: hidden;
+}
+main .main3 .box_explore4 .inside_box_explore4:hover .text_inside_box_explore4 .card_main3_on_hover {
+  display: block;
+}
+main .main3 .box_explore4 .inside_box_explore4:hover .text_inside_box_explore4 span.hide, main .main3 .box_explore4 .inside_box_explore4:hover .text_inside_box_explore4 p.hide {
+  display: none;
+}
+main .main3 .box_explore4 .inside_box_explore4:hover .text_inside_box_explore4 {
+  height: 73.5%;
+}
+main .main3 .box_explore4 .inside_box_explore4 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+  width: 100%;
+  height: 50%;
+  padding: 125px 30px 30px;
+  text-align: left;
+}
+main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 span, main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 span.hide {
+  font-size: 25px;
+  font-weight: 700;
+  color: #2DB19C;
+}
+main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 span span, main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 span span.hide, main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 span.hide span, main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 span.hide span.hide {
+  font-size: 18px;
+}
+main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 p {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 i {
+  color: white;
+  margin-bottom: 15px;
+  margin-right: 30px;
+}
+main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 i span {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 p.hover {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 .card_main3_on_hover {
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+main .main3 p.end_main3 {
+  width: 32%;
+  margin: 55px auto 0;
+  color: #6F6F6F;
+  font-weight: 500;
+}
+main .main3 p.end_main3 a {
+  color: black;
+  font-weight: 700;
+  text-decoration: underline;
+}
+main .main3 p.end_main3 a:hover {
+  color: #2DB19C;
+}
+main .main4 {
+  background: #323043;
+  width: 100%;
+  height: 835px;
 }
