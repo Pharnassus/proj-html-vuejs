@@ -1,0 +1,53 @@
+main{
+  width: 100%;
+  height: 935px;
+
+  .lets_dream{
+    text-align: center;
+    padding: 120px 0 97px;
+    h2{
+      @include sectionGreenTitle;
+      margin-bottom: 30px;
+    }
+    p.subtitle{
+      display: inline-block;
+      width: 52.6%;
+      margin: 0 auto;
+      padding: 0 12px;
+      color: #333434;
+      font-size: 31px;
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+    .lets_dream_box_x6{
+      width: 1170px;
+      height: 340px;
+      margin: 0 auto 80px;;
+      text-align: left;
+
+      .box_x6{
+        @include boxX6LetsDream;
+        h3{
+          text-transform: capitalize;
+          font-weight: 600;
+          font-size: 22px;
+        }
+        p{
+          font-size: 13.5px;
+          color: #717171;
+        }
+      }
+    }
+    button{
+      @include buttonGreen;
+      width: 200px;
+      height: 52px;
+      margin: 0 13px;
+    }
+    button.white{
+      background: white;
+      color: #2DB19C;
+      border: 2px solid #EEEEEE;
+    }
+  }
+}

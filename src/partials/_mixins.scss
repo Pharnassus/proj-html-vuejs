@@ -21,3 +21,26 @@
     outline: -webkit-focus-ring-color auto 0px;
   }
 }
+
+@mixin sectionGreenTitle {
+  font-weight: 500;
+  font-size: 22px;
+  color: #2DB19C;
+  margin-bottom: 20px;
+}
+
+@mixin boxX6LetsDream {
+  width: calc(100% / 3);
+  height: calc(100% / 2);
+  float: left;
+  padding-top: 35px;
+  img{
+    float: left;
+  }
+  .box_inside{
+    width: 80%;
+    height: 100%;
+    float: right;
+    padding: 0px 17px;
+  }
+}

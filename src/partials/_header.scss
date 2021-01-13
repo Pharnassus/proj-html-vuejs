@@ -9,7 +9,7 @@ header{
     margin-left: 170px;
 
     .logo{
-      width: 495px;
+      width: 28.5%;
       height: 100%;
       float: left;
       display: flex;
@@ -21,7 +21,7 @@ header{
       }
     }
     .navbar{
-      width: 820px;
+      width: 47.3%;
       height: 100%;
       float: left;
       ul{
@@ -44,7 +44,7 @@ header{
       }
     }
     .language{
-      width: 205px;
+      width: 11.9%;
       height: 100%;
       float: left;
       display: flex;
@@ -75,7 +75,7 @@ header{
       }
     }
     .search{
-      width: 230px;
+      width: 12.3%;
       height: 100%;
       float: left;
       input{
@@ -110,10 +110,7 @@ header{
       float: left;
       padding: 185px 90px 0 375px;
       h2{
-        font-weight: 500;
-        font-size: 22px;
-        color: #2DB19C;
-        margin-bottom: 20px;
+        @include sectionGreenTitle;
       }
       p:first-of-type{
         color: #333434;
