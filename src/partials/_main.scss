@@ -21,7 +21,7 @@ main{
       margin-bottom: 40px;
     }
     .lets_dream_box_x6{
-      width: 1170px;
+      width: 61.5%;
       height: 340px;
       margin: 0 auto 80px;
       text-align: left;
@@ -36,6 +36,9 @@ main{
         p{
           font-size: 13.5px;
           color: #717171;
+        }
+        img{
+          // width: 20%; per le queries
         }
       }
     }
@@ -80,8 +83,7 @@ main{
       margin-bottom: 40px;
     }
     .box_explore3{
-      // background: orange;
-      width: 1170px;
+      width: 61.5%;
       height: 470px;
       margin: 25px auto;
       display: flex;
@@ -176,7 +178,7 @@ main{
       margin-bottom: 40px;
     }
     .box_explore4{
-      width: 1623px;
+      width: 85.3%;
       height: 520px;
       margin: 10px auto;
       display: flex;
@@ -280,6 +282,87 @@ main{
     background: #323043;
     width: 100%;
     height: 835px;
+    position: relative;
+    color: white;
+    img:first-of-type{
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    img:nth-of-type(2){
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform: translate(39.2%, -10%);
+    }
+
+    .player{
+      width: 34.9%;
+      height: 450px;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-114.8%, -48%);
+      border-radius: 5px;
+      overflow: hidden;
+      img:first-of-type{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+      img:last-of-type{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    .a_good_plan{
+      width: 30%;
+      height: 610px;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(2.2%, -121%);
+      h2{
+        margin-top: -15px;
+        margin-bottom: 50px;
+        font-size: 45px;
+        line-height: 50px;
+      }
+      h3{
+        font-size: 25px;
+        font-weight: 600;
+      }
+      h3:first-of-type{
+        color: #2DB19C;
+        margin-bottom: 20px;
+      }
+      i{
+        margin-right: 20px;
+        font-size: 25px;
+      }
+      p{
+        margin-left: 45px;
+        font-size: 14.5px;
+        line-height: 30px;
+      }
+      p{
+        margin-bottom: 20px;
+      }
+      h3:nth-of-type(2){
+        // margin: 20px 0;
+        padding: 20px 0;
+        border-top: 2px solid #474556;
+      }
+      h3:last-of-type{
+        padding: 20px 0;
+        border-top: 2px solid #474556;
+        border-bottom: 2px solid #474556;
+      }
+    }
   }
   // fine_main4
 

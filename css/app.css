@@ -205,7 +205,7 @@ main .main1 p.subtitle {
   margin-bottom: 40px;
 }
 main .main1 .lets_dream_box_x6 {
-  width: 1170px;
+  width: 61.5%;
   height: 340px;
   margin: 0 auto 80px;
   text-align: left;
@@ -287,7 +287,7 @@ main .main2 p.subtitle {
   margin-bottom: 40px;
 }
 main .main2 .box_explore3 {
-  width: 1170px;
+  width: 61.5%;
   height: 470px;
   margin: 25px auto;
   display: flex;
@@ -381,7 +381,7 @@ main .main3 p.subtitle {
   margin-bottom: 40px;
 }
 main .main3 .box_explore4 {
-  width: 1623px;
+  width: 85.3%;
   height: 520px;
   margin: 10px auto;
   display: flex;
@@ -479,4 +479,84 @@ main .main4 {
   background: #323043;
   width: 100%;
   height: 835px;
+  position: relative;
+  color: white;
+}
+main .main4 img:first-of-type {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+main .main4 img:nth-of-type(2) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(39.2%, -10%);
+}
+main .main4 .player {
+  width: 34.9%;
+  height: 450px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-114.8%, -48%);
+  border-radius: 5px;
+  overflow: hidden;
+}
+main .main4 .player img:first-of-type {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+main .main4 .player img:last-of-type {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main .main4 .a_good_plan {
+  width: 30%;
+  height: 610px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(2.2%, -121%);
+}
+main .main4 .a_good_plan h2 {
+  margin-top: -15px;
+  margin-bottom: 50px;
+  font-size: 45px;
+  line-height: 50px;
+}
+main .main4 .a_good_plan h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+main .main4 .a_good_plan h3:first-of-type {
+  color: #2DB19C;
+  margin-bottom: 20px;
+}
+main .main4 .a_good_plan i {
+  margin-right: 20px;
+  font-size: 25px;
+}
+main .main4 .a_good_plan p {
+  margin-left: 45px;
+  font-size: 14.5px;
+  line-height: 30px;
+}
+main .main4 .a_good_plan p {
+  margin-bottom: 20px;
+}
+main .main4 .a_good_plan h3:nth-of-type(2) {
+  padding: 20px 0;
+  border-top: 2px solid #474556;
+}
+main .main4 .a_good_plan h3:last-of-type {
+  padding: 20px 0;
+  border-top: 2px solid #474556;
+  border-bottom: 2px solid #474556;
 }
