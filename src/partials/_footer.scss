@@ -103,10 +103,9 @@ footer{
     background: #171621;
     width: 100%;
     height: 405px;
-    position: relative;
 
     .back_to_top{
-      position: absolute;
+      position: fixed;
       bottom: 0;
       right: 0;
       transform: translate(-50%, -50%);
@@ -144,10 +143,13 @@ footer{
         float: left;
         .social_icon{
           margin-top: 20px;
-          a{
-            margin-right: 20px;
-            i{
-              font-size: 25px;
+          li{
+            display: inline-block;
+            a{
+              margin-right: 20px;
+              i{
+                font-size: 25px;
+              }
             }
           }
         }
