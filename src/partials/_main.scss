@@ -480,4 +480,43 @@ main{
   }
   // fine_main5
 
+  // main6
+  .main6{
+    background: #F8F8F8;
+    width: 100%;
+    height: 830px;
+    padding: 110px 0 97px;
+    text-align: center;
+    h2{
+      @include sectionGreenTitle;
+      margin-bottom: 15px;
+    }
+    p.subtitle{
+      display: inline-block;
+      width: 52.6%;
+      margin: 0 auto;
+      padding: 0 12px;
+      color: #333434;
+      font-size: 45px;
+      font-weight: 600;
+      margin-bottom: 60px;
+    }
+
+    .feed_section{
+      width: 95.5%;
+      height: 385px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+
+      .feed_box{
+        background: white;
+        width: 31.3%;
+        height: 385px;
+        padding: 50px;
+        border-radius: 5px;
+      }
+    }
+  }
+  // fine_main6
 }

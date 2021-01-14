@@ -685,3 +685,41 @@ main .main5 p a {
   font-weight: 700;
   text-decoration: underline;
 }
+main .main6 {
+  background: #F8F8F8;
+  width: 100%;
+  height: 830px;
+  padding: 110px 0 97px;
+  text-align: center;
+}
+main .main6 h2 {
+  font-weight: 500;
+  font-size: 22px;
+  color: #2DB19C;
+  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+main .main6 p.subtitle {
+  display: inline-block;
+  width: 52.6%;
+  margin: 0 auto;
+  padding: 0 12px;
+  color: #333434;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+main .main6 .feed_section {
+  width: 95.5%;
+  height: 385px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+main .main6 .feed_section .feed_box {
+  background: white;
+  width: 31.3%;
+  height: 385px;
+  padding: 50px;
+  border-radius: 5px;
+}
