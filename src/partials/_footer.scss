@@ -4,6 +4,7 @@ footer{
   height: 805px;
   text-align: center;
 
+  //section_newsletter
   .newsletters{
     background: white;
     width: 100%;
@@ -98,7 +99,9 @@ footer{
       }
     }
   }
+  // fine_section_newsletter
 
+  // footer_link_info
   .info_link{
     background: #171621;
     width: 100%;
@@ -179,4 +182,82 @@ footer{
       margin-top: 15px;
     }
   }
+  // fine_footer_link_info
+
+}
+
+
+//queries__________________________________________________________________________________________________________________________________________________________
+@media screen and (min-width: 1000px) and (max-width: 1179px) {
+
+  // subscribe
+  footer .newsletters .subscribe_newsletters p.subtitle {
+    font-size: 26px;
+  }
+  footer .newsletters .subscribe_newsletters p {
+    font-size: 11px;
+  }
+  footer .newsletters .subscribe_newsletters .input_button_box {
+    padding: 0;
+  }
+  footer .newsletters .subscribe_newsletters .input_button_box button {
+    left: 83%;
+  }
+  // fine_subscribe
+
+  // link
+  footer .info_link .wrapper_link li {
+    font-size: 9px;
+  }
+  // fine_link
+
+}
+
+@media screen and (min-width: 1180px) and (max-width: 1419px) {
+
+  // subscribe
+  footer .newsletters .subscribe_newsletters p.subtitle {
+    font-size: 31px;
+  }
+  footer .newsletters .subscribe_newsletters p {
+    font-size: 13px;
+  }
+  footer .newsletters .subscribe_newsletters .input_button_box {
+    padding: 0;
+  }
+  footer .newsletters .subscribe_newsletters .input_button_box button {
+    left: 83%;
+  }
+  // fine_subscribe
+
+  // link
+  footer .info_link .wrapper_link li {
+    font-size: 10px;
+  }
+  // fine_link
+}
+
+@media screen and (min-width: 1420px) and (max-width: 1919px) {
+
+  // subscribe
+  footer .newsletters .subscribe_newsletters p.subtitle {
+    font-size: 39px;
+  }
+  footer .newsletters .subscribe_newsletters p {
+    font-size: 16px;
+  }
+  footer .newsletters .subscribe_newsletters .input_button_box {
+    padding: 0 18px;
+  }
+  footer .newsletters .subscribe_newsletters .input_button_box button {
+    left: 83%;
+  }
+  // fine_subscribe
+
+  // link
+  footer .info_link .wrapper_link li {
+    font-size: 12px;
+  }
+  // fine_link
+
 }

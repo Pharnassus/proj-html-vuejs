@@ -180,6 +180,174 @@ header .jumbotron .jumbotron_img img:last-child {
   transform: translate(-50%, -50%);
 }
 
+@media screen and (min-width: 1000px) and (max-width: 1179px) {
+  header .header_nav {
+    width: calc(100% - 85px);
+    margin-left: 85px;
+  }
+
+  header .header_nav .logo {
+    width: 21%;
+  }
+
+  header .header_nav .navbar ul li {
+    padding-right: 12px;
+  }
+
+  header .header_nav .navbar ul {
+    font-size: 14px;
+  }
+
+  header .header_nav .language {
+    width: 17.9%;
+  }
+
+  header .header_nav .language img {
+    height: 14px;
+  }
+
+  header .header_nav .language span {
+    font-size: 14px;
+    margin-right: 11px;
+  }
+
+  header .header_nav .search {
+    width: 13.3%;
+  }
+
+  header .header_nav .search input {
+    width: calc(100% - 27px);
+    font-size: 14px;
+    padding: 0 19px;
+  }
+
+  header .header_nav .search i {
+    font-size: 14px;
+    margin-left: 0px;
+  }
+
+  header .jumbotron .new_challenges {
+    padding: 115px 0px 0 111px;
+  }
+
+  header .jumbotron .jumbotron_img img:last-child {
+    top: 55%;
+    left: 56%;
+    width: 560px;
+  }
+}
+@media screen and (min-width: 1180px) and (max-width: 1419px) {
+  header .header_nav {
+    width: calc(100% - 100px);
+    margin-left: 100px;
+  }
+
+  header .header_nav .logo {
+    width: 21%;
+  }
+
+  header .header_nav .navbar ul {
+    font-size: 15px;
+  }
+
+  header .header_nav .navbar ul li {
+    padding-right: 20px;
+  }
+
+  header .header_nav .language {
+    width: 17.9%;
+  }
+
+  header .header_nav .language img {
+    height: 14px;
+  }
+
+  header .header_nav .language span {
+    font-size: 14px;
+    margin-right: 11px;
+  }
+
+  header .header_nav .search {
+    width: 13.3%;
+  }
+
+  header .header_nav .search input {
+    width: calc(100% - 27px);
+    font-size: 14px;
+    padding: 0 19px;
+  }
+
+  header .header_nav .search i {
+    font-size: 14px;
+    margin-left: 0px;
+  }
+
+  header .jumbotron .new_challenges {
+    padding: 180px 0px 0 140px;
+  }
+
+  header .jumbotron .jumbotron_img img:last-child {
+    top: 55%;
+    left: 56%;
+    width: 560px;
+  }
+}
+@media screen and (min-width: 1420px) and (max-width: 1919px) {
+  header .header_nav {
+    width: calc(100% - 140px);
+    margin-left: 140px;
+  }
+
+  header .header_nav .logo {
+    width: 21%;
+  }
+
+  header .header_nav .navbar ul {
+    font-size: 16px;
+  }
+
+  header .header_nav .navbar ul li {
+    padding-right: 25px;
+  }
+
+  header .header_nav .language {
+    width: 17.9%;
+  }
+
+  header .header_nav .language img {
+    height: 14px;
+  }
+
+  header .header_nav .language span {
+    font-size: 14px;
+    margin-right: 11px;
+  }
+
+  header .header_nav .search {
+    width: 13.3%;
+  }
+
+  header .header_nav .search input {
+    width: calc(100% - 27px);
+    font-size: 14px;
+    padding: 0 19px;
+  }
+
+  header .header_nav .search i {
+    font-size: 14px;
+    margin-left: 0px;
+  }
+
+  header .jumbotron .new_challenges {
+    padding: 224px 0px 0 275px;
+  }
+
+  header .jumbotron .jumbotron_img img:last-child {
+    top: 55%;
+    left: 56%;
+    width: 560px;
+  }
+}
 main .main1 {
   width: 100%;
   height: 935px;
@@ -721,7 +889,7 @@ main .main6 .feed_section .feed_box.opacity_testimonial {
 main .main6 .feed_section .feed_box {
   background: white;
   width: 31.3%;
-  height: 385px;
+  height: 100%;
   padding: 50px;
   border-radius: 5px;
   text-align: left;
@@ -786,6 +954,383 @@ main .main6 .circle_slider i {
   cursor: pointer;
 }
 
+@media screen and (min-width: 1000px) and (max-width: 1179px) {
+  main .main1 {
+    padding: 160px 0 0;
+  }
+
+  main .main1 p.subtitle {
+    font-size: 18px;
+  }
+
+  main .main1 .lets_dream_box_x6 .box_x6 img {
+    width: 41px;
+  }
+
+  main .main1 .lets_dream_box_x6 {
+    margin: 0 auto 1px;
+  }
+
+  main .main1 .lets_dream_box_x6 .box_x6 {
+    padding-top: 0;
+  }
+
+  main .main1 .lets_dream_box_x6 .box_x6 h3 {
+    font-size: 14px;
+  }
+
+  main .main1 .lets_dream_box_x6 .box_x6 p {
+    font-size: 11.5px;
+  }
+
+  main .main2 p.subtitle {
+    font-size: 35px;
+  }
+
+  main .main2 .box_explore3 {
+    width: 77.5%;
+    height: 400px;
+  }
+
+  main .main2 .box_explore3 .inside_box_explore3 .text_inside_box_explore3 h3 {
+    font-size: 17px;
+  }
+
+  main .main2 .box_explore3 .inside_box_explore3 .text_inside_box_explore3 p {
+    font-size: 11px;
+    padding: 0 10px;
+  }
+
+  main .main3 p.subtitle {
+    font-size: 37px;
+  }
+
+  main .main3 .box_explore4 {
+    width: 97.3%;
+    height: 500px;
+  }
+
+  main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 p {
+    font-size: 12px;
+  }
+
+  main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 i {
+    margin-bottom: 0px;
+    margin-right: 5px;
+  }
+
+  main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 p.hover {
+    font-size: 12px;
+  }
+
+  main .main3 p.end_main3 {
+    font-size: 11px;
+  }
+
+  main .main4 .a_good_plan {
+    width: 41%;
+  }
+
+  main .main4 .a_good_plan h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  main .main4 .a_good_plan p {
+    line-height: 22px;
+  }
+
+  main .main4 .a_good_plan h3 {
+    font-size: 19px;
+  }
+
+  main .main5 .events_boxes .event .info_event p {
+    font-size: 12px;
+  }
+
+  main .main5 .events_boxes .event .date_event span:first-of-type {
+    font-size: 45px;
+  }
+
+  main .main5 .events_boxes .event .date_event button {
+    height: 44px;
+  }
+
+  main .main6 p.subtitle {
+    font-size: 39px;
+  }
+
+  main .main6 .feed_section .feed_box {
+    padding: 25px;
+  }
+
+  main .main6 .feed_section .feed_box h4 {
+    font-size: 13px;
+  }
+
+  main .main6 .feed_section .feed_box p {
+    font-size: 13px;
+  }
+
+  main .main6 .feed_section .feed_box .student_id .student_img {
+    width: 25%;
+  }
+
+  main .main6 .feed_section .feed_box .student_id .student_name {
+    width: 75%;
+  }
+
+  main .main6 .feed_section {
+    height: 330px;
+  }
+}
+@media screen and (min-width: 1180px) and (max-width: 1419px) {
+  main .main1 {
+    padding: 100px 0 0;
+  }
+
+  main .main1 p.subtitle {
+    font-size: 21px;
+  }
+
+  main .main1 .lets_dream_box_x6 .box_x6 img {
+    width: 45px;
+  }
+
+  main .main1 .lets_dream_box_x6 {
+    margin: 0 auto 105px;
+  }
+
+  main .main1 .lets_dream_box_x6 .box_x6 {
+    padding-top: 20px;
+  }
+
+  main .main1 .lets_dream_box_x6 .box_x6 h3 {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  main .main2 p.subtitle {
+    font-size: 44px;
+  }
+
+  main .main2 .box_explore3 {
+    width: 77.5%;
+    height: 420px;
+  }
+
+  main .main2 .box_explore3 .inside_box_explore3 .text_inside_box_explore3 h3 {
+    font-size: 21px;
+  }
+
+  main .main2 .box_explore3 .inside_box_explore3 .text_inside_box_explore3 p {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  main .main3 p.subtitle {
+    font-size: 44px;
+  }
+
+  main .main3 .box_explore4 {
+    width: 97.3%;
+    height: 500px;
+  }
+
+  main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 p {
+    font-size: 12px;
+  }
+
+  main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 i {
+    margin-bottom: 0px;
+    margin-right: 5px;
+  }
+
+  main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 p.hover {
+    font-size: 12px;
+  }
+
+  main .main3 p.end_main3 {
+    font-size: 13px;
+  }
+
+  main .main4 .a_good_plan {
+    width: 41%;
+  }
+
+  main .main4 .a_good_plan h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  main .main4 .a_good_plan p {
+    line-height: 25px;
+  }
+
+  main .main4 .a_good_plan h3 {
+    font-size: 22px;
+  }
+
+  main .main5 .events_boxes {
+    width: 77.5%;
+    height: 545px;
+  }
+
+  main .main5 .events_boxes .event .info_event p {
+    font-size: 15px;
+  }
+
+  main .main5 .events_boxes .event .date_event span:first-of-type {
+    font-size: 45px;
+  }
+
+  main .main5 .events_boxes .event .date_event button {
+    height: 33px;
+  }
+
+  main .main6 .feed_section .feed_box {
+    padding: 35px;
+  }
+
+  main .main6 .feed_section .feed_box h4 {
+    font-size: 15px;
+  }
+
+  main .main6 .feed_section .feed_box p {
+    font-size: 14px;
+  }
+
+  main .main6 .feed_section .feed_box .student_id .student_img {
+    width: 25%;
+  }
+
+  main .main6 .feed_section .feed_box .student_id .student_name {
+    width: 75%;
+  }
+
+  main .main6 .feed_section {
+    height: 360px;
+  }
+}
+@media screen and (min-width: 1420px) and (max-width: 1919px) {
+  main .main1 {
+    padding: 100px 0 0;
+  }
+
+  main .main1 p.subtitle {
+    font-size: 26px;
+  }
+
+  main .main1 .lets_dream_box_x6 .box_x6 img {
+    width: 55px;
+  }
+
+  main .main1 .lets_dream_box_x6 {
+    margin: 0 auto 70px;
+  }
+
+  main .main1 .lets_dream_box_x6 .box_x6 {
+    padding-top: 20px;
+  }
+
+  main .main1 .lets_dream_box_x6 .box_x6 h3 {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  main .main2 p.subtitle {
+    font-size: 44px;
+  }
+
+  main .main2 .box_explore3 {
+    width: 65.5%;
+    height: 423px;
+  }
+
+  main .main2 .box_explore3 .inside_box_explore3 .text_inside_box_explore3 h3 {
+    font-size: 21px;
+  }
+
+  main .main2 .box_explore3 .inside_box_explore3 .text_inside_box_explore3 p {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  main .main3 p.subtitle {
+    font-size: 45px;
+  }
+
+  main .main3 .box_explore4 {
+    width: 97.3%;
+    height: 500px;
+  }
+
+  main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 p {
+    font-size: 18px;
+  }
+
+  main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 i {
+    margin-bottom: 0px;
+    margin-right: 5px;
+  }
+
+  main .main3 .box_explore4 .inside_box_explore4 .text_inside_box_explore4 p.hover {
+    font-size: 14px;
+  }
+
+  main .main3 p.end_main3 {
+    font-size: 15px;
+  }
+
+  main .main4 .a_good_plan {
+    width: 41%;
+    transform: translate(2.2%, -120%);
+  }
+
+  main .main4 .a_good_plan h2 {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+
+  main .main4 .a_good_plan p {
+    font-size: 15.5px;
+    line-height: 30px;
+  }
+
+  main .main4 .a_good_plan h3 {
+    font-size: 26px;
+  }
+
+  main .main5 .events_boxes {
+    width: 74.5%;
+  }
+
+  main .main6 .feed_section .feed_box {
+    padding: 35px;
+  }
+
+  main .main6 .feed_section .feed_box h4 {
+    font-size: 19px;
+  }
+
+  main .main6 .feed_section .feed_box p {
+    font-size: 16px;
+  }
+
+  main .main6 .feed_section .feed_box .student_id .student_img {
+    width: 20%;
+  }
+
+  main .main6 .feed_section .feed_box .student_id .student_name {
+    width: 80%;
+  }
+
+  main .main6 .feed_section {
+    height: 360px;
+  }
+}
 footer {
   background: green;
   width: 100%;
@@ -970,4 +1515,68 @@ footer .info_link p {
   color: #A8A8A9;
   font-size: 13.5px;
   margin-top: 15px;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1179px) {
+  footer .newsletters .subscribe_newsletters p.subtitle {
+    font-size: 26px;
+  }
+
+  footer .newsletters .subscribe_newsletters p {
+    font-size: 11px;
+  }
+
+  footer .newsletters .subscribe_newsletters .input_button_box {
+    padding: 0;
+  }
+
+  footer .newsletters .subscribe_newsletters .input_button_box button {
+    left: 83%;
+  }
+
+  footer .info_link .wrapper_link li {
+    font-size: 9px;
+  }
+}
+@media screen and (min-width: 1180px) and (max-width: 1419px) {
+  footer .newsletters .subscribe_newsletters p.subtitle {
+    font-size: 31px;
+  }
+
+  footer .newsletters .subscribe_newsletters p {
+    font-size: 13px;
+  }
+
+  footer .newsletters .subscribe_newsletters .input_button_box {
+    padding: 0;
+  }
+
+  footer .newsletters .subscribe_newsletters .input_button_box button {
+    left: 83%;
+  }
+
+  footer .info_link .wrapper_link li {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 1420px) and (max-width: 1919px) {
+  footer .newsletters .subscribe_newsletters p.subtitle {
+    font-size: 39px;
+  }
+
+  footer .newsletters .subscribe_newsletters p {
+    font-size: 16px;
+  }
+
+  footer .newsletters .subscribe_newsletters .input_button_box {
+    padding: 0 18px;
+  }
+
+  footer .newsletters .subscribe_newsletters .input_button_box button {
+    left: 83%;
+  }
+
+  footer .info_link .wrapper_link li {
+    font-size: 12px;
+  }
 }

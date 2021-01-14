@@ -147,3 +147,169 @@ header{
     }
   }
 }
+
+//queries__________________________________________________________________________________________________________________________________________________________
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1179px) {
+
+  // navbar
+  header .header_nav {
+    width: calc(100% - 85px);
+    margin-left: 85px;
+  }
+  header .header_nav .logo {
+    width: 21%;
+  }
+  header .header_nav .navbar ul li {
+    padding-right: 12px;
+  }
+  header .header_nav .navbar ul {
+    font-size: 14px;
+  }
+  header .header_nav .language {
+    width: 17.9%;
+  }
+  header .header_nav .language img {
+    height: 14px;
+  }
+  header .header_nav .language span {
+    font-size: 14px;
+    margin-right: 11px;
+  }
+  header .header_nav .search {
+    width: 13.3%;
+  }
+  header .header_nav .search input {
+    width: calc(100% - 27px);
+    font-size: 14px;
+    padding: 0 19px;
+  }
+  header .header_nav .search i {
+    font-size: 14px;
+    margin-left: 0px;
+  }
+  // fine_navbar
+
+  // jumbotron
+  header .jumbotron .new_challenges {
+    padding: 115px 0px 0 111px;
+  }
+  header .jumbotron .jumbotron_img img:last-child {
+    top: 55%;
+    left: 56%;
+    width: 560px;
+  }
+  // fine_jumbotron
+
+
+}
+
+
+@media screen and (min-width: 1180px) and (max-width: 1419px) {
+
+  // navbar
+  header .header_nav {
+    width: calc(100% - 100px);
+    margin-left: 100px;
+  }
+  header .header_nav .logo {
+    width: 21%;
+  }
+  header .header_nav .navbar ul {
+    font-size: 15px;
+  }
+  header .header_nav .navbar ul li {
+    padding-right: 20px;
+  }
+  header .header_nav .language {
+    width: 17.9%;
+  }
+  header .header_nav .language img {
+    height: 14px;
+  }
+  header .header_nav .language span {
+    font-size: 14px;
+    margin-right: 11px;
+  }
+  header .header_nav .search {
+    width: 13.3%;
+  }
+  header .header_nav .search input {
+    width: calc(100% - 27px);
+    font-size: 14px;
+    padding: 0 19px;
+  }
+  header .header_nav .search i {
+    font-size: 14px;
+    margin-left: 0px;
+  }
+  // fine_navbar
+
+  // jumbotron
+  header .jumbotron .new_challenges {
+    padding: 180px 0px 0 140px;
+  }
+  header .jumbotron .jumbotron_img img:last-child {
+    top: 55%;
+    left: 56%;
+    width: 560px;
+  }
+  // fine_jumbotron
+
+}
+
+
+@media screen and (min-width: 1420px) and (max-width: 1919px) {
+
+  // navbar
+  header .header_nav {
+    width: calc(100% - 140px);
+    margin-left: 140px;
+  }
+  header .header_nav .logo {
+    width: 21%;
+  }
+  header .header_nav .navbar ul {
+    font-size: 16px;
+  }
+  header .header_nav .navbar ul li {
+    padding-right: 25px;
+  }
+  header .header_nav .language {
+    width: 17.9%;
+  }
+  header .header_nav .language img {
+    height: 14px;
+  }
+  header .header_nav .language span {
+    font-size: 14px;
+    margin-right: 11px;
+  }
+  header .header_nav .search {
+    width: 13.3%;
+  }
+  header .header_nav .search input {
+    width: calc(100% - 27px);
+    font-size: 14px;
+    padding: 0 19px;
+  }
+  header .header_nav .search i {
+    font-size: 14px;
+    margin-left: 0px;
+  }
+  // fine_navbar
+
+  // jumbotron
+  header .jumbotron .new_challenges {
+    padding: 224px 0px 0 275px;
+  }
+  header .jumbotron .jumbotron_img img:last-child {
+    top: 55%;
+    left: 56%;
+    width: 560px;
+  }
+  // fine_jumbotron
+
+}
