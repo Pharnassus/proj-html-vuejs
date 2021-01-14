@@ -1,0 +1,107 @@
+footer{
+  background: green;
+  width: 100%;
+  height: 805px;
+  text-align: center;
+
+  .newsletters{
+    background: white;
+    width: 100%;
+    height: 400px;
+
+    .shape_left_circle{
+      // background: yellow;
+      width: calc(100% / 3);
+      height: 100%;
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      i{
+        font-size: 53px;
+        color: #8FD6CA;
+      }
+    }
+    .subscribe_newsletters{
+      // background: orange;
+      float: left;
+      width: calc(100% / 3);
+      height: 100%;
+      p.subtitle{
+        display: inline-block;
+        padding-top: 60px;
+        color: #333434;
+        font-size: 45px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        span{
+          color: #2DB19C;
+          font-weight: 400;
+        }
+      }
+      p{
+        padding: 0 20px;
+        color: #6C6C6C;
+        font-weight: 500;
+      }
+
+      .input_button_box{
+        position: relative;
+        width: 100%;
+        height: 55px;
+        padding: 0 40px;
+        text-align: left;
+        margin-top: 45px;
+        input{
+          background: #F5F5F5;
+          width: 82%;
+          height: 100%;
+          border: none;
+          border-radius: 5px 0 0 5px;
+          padding: 0 22px;
+          &:focus {
+            outline: -webkit-focus-ring-color auto 0px;
+          }
+        }
+        button{
+          @include buttonGreen;
+          border-radius: 0 5px 5px 0;
+          width: 125px;
+          height: 99.7%;
+          position: absolute;
+          top: 50%;
+          left: 88%;
+          transform: translate(-50%, -50%);
+          z-index: 2;
+        }
+      }
+    }
+    .shape_right_dottedcube{
+      // background: red;
+      float: left;
+      width: calc(100% / 3);
+      height: 100%;
+      position: relative;
+      img:first-of-type{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(115%, 114%);
+        z-index: 2;
+      }
+      img:last-of-type{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(37.5%, 29%);
+        z-index: 1;
+      }
+    }
+  }
+
+  .info_link{
+    background: #171621;
+    width: 100%;
+    height: 405px;
+  }
+}

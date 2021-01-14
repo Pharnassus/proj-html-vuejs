@@ -103,7 +103,6 @@ header .header_nav .search {
 header .header_nav .search input {
   width: calc(100% - 46px);
   height: 100%;
-  box-sizing: border-box;
   border-width: 0px;
   border-left: 1px solid #ccc;
   font-size: 16px;
@@ -785,4 +784,117 @@ main .main6 .circle_slider i {
   color: #D9D9D9;
   font-size: 9px;
   cursor: pointer;
+}
+
+footer {
+  background: green;
+  width: 100%;
+  height: 805px;
+  text-align: center;
+}
+footer .newsletters {
+  background: white;
+  width: 100%;
+  height: 400px;
+}
+footer .newsletters .shape_left_circle {
+  width: calc(100% / 3);
+  height: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .newsletters .shape_left_circle i {
+  font-size: 53px;
+  color: #8FD6CA;
+}
+footer .newsletters .subscribe_newsletters {
+  float: left;
+  width: calc(100% / 3);
+  height: 100%;
+}
+footer .newsletters .subscribe_newsletters p.subtitle {
+  display: inline-block;
+  padding-top: 60px;
+  color: #333434;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+footer .newsletters .subscribe_newsletters p.subtitle span {
+  color: #2DB19C;
+  font-weight: 400;
+}
+footer .newsletters .subscribe_newsletters p {
+  padding: 0 20px;
+  color: #6C6C6C;
+  font-weight: 500;
+}
+footer .newsletters .subscribe_newsletters .input_button_box {
+  position: relative;
+  width: 100%;
+  height: 55px;
+  padding: 0 40px;
+  text-align: left;
+  margin-top: 45px;
+}
+footer .newsletters .subscribe_newsletters .input_button_box input {
+  background: #F5F5F5;
+  width: 82%;
+  height: 100%;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  padding: 0 22px;
+}
+footer .newsletters .subscribe_newsletters .input_button_box input:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+footer .newsletters .subscribe_newsletters .input_button_box button {
+  background: #2DB19C;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  border-radius: 0 5px 5px 0;
+  width: 125px;
+  height: 99.7%;
+  position: absolute;
+  top: 50%;
+  left: 88%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+footer .newsletters .subscribe_newsletters .input_button_box button:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+footer .newsletters .subscribe_newsletters .input_button_box button:hover {
+  background: #3F3A64;
+  color: white;
+}
+footer .newsletters .shape_right_dottedcube {
+  float: left;
+  width: calc(100% / 3);
+  height: 100%;
+  position: relative;
+}
+footer .newsletters .shape_right_dottedcube img:first-of-type {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(115%, 114%);
+  z-index: 2;
+}
+footer .newsletters .shape_right_dottedcube img:last-of-type {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(37.5%, 29%);
+  z-index: 1;
+}
+footer .info_link {
+  background: #171621;
+  width: 100%;
+  height: 405px;
 }
