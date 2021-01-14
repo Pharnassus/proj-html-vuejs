@@ -55,6 +55,7 @@ header .header_nav .navbar ul li {
   align-self: center;
   padding-right: 50px;
   font-weight: 600;
+  position: relative;
 }
 header .header_nav .navbar ul a {
   color: #514D73;
@@ -171,7 +172,24 @@ header .jumbotron .jumbotron_img {
   position: relative;
 }
 header .jumbotron .jumbotron_img img:first-child {
-  transform: rotate(280deg);
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 40s;
+          animation-duration: 40s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
 }
 header .jumbotron .jumbotron_img img:last-child {
   position: absolute;
@@ -1117,7 +1135,7 @@ main .main6 .circle_slider i {
 
   main .main2 .box_explore3 {
     width: 77.5%;
-    height: 420px;
+    height: 435px;
   }
 
   main .main2 .box_explore3 .inside_box_explore3 .text_inside_box_explore3 h3 {

@@ -32,6 +32,7 @@ header{
           align-self: center;
           padding-right: 50px;
           font-weight: 600;
+          position: relative;
         }
         a{
           color: #514D73;
@@ -136,7 +137,16 @@ header{
       float: left;
       position: relative;
       img:first-child{
-        transform: rotate(280deg);
+        // transform: rotate(280deg);
+        animation-name: spin;
+        animation-duration: 40s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      @keyframes spin{
+        0%{
+          transform: rotate(360deg);
+        }
       }
       img:last-child{
         position: absolute;
