@@ -299,7 +299,7 @@ main .main2 .box_explore3 .inside_box_explore3 {
   height: 100%;
   float: left;
   border-radius: 5px;
-  box-shadow: 0px 10px 70px 3px #F0F0F0;
+  box-shadow: 0px 5px 50px 2px lightgray;
   overflow: hidden;
 }
 main .main2 .box_explore3 .inside_box_explore3 img {
@@ -397,6 +397,7 @@ main .main3 .box_explore4 .inside_box_explore4 {
   float: left;
   border-radius: 5px;
   overflow: hidden;
+  cursor: pointer;
 }
 main .main3 .box_explore4 .inside_box_explore4:hover .text_inside_box_explore4 .card_main3_on_hover {
   display: block;
@@ -516,6 +517,7 @@ main .main4 .player img:last-of-type {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 main .main4 .a_good_plan {
   width: 30%;
@@ -542,6 +544,7 @@ main .main4 .a_good_plan h3:first-of-type {
 main .main4 .a_good_plan i {
   margin-right: 20px;
   font-size: 25px;
+  cursor: pointer;
 }
 main .main4 .a_good_plan p {
   margin-left: 45px;
@@ -559,4 +562,126 @@ main .main4 .a_good_plan h3:last-of-type {
   padding: 20px 0;
   border-top: 2px solid #474556;
   border-bottom: 2px solid #474556;
+}
+main .main5 {
+  position: relative;
+  width: 100%;
+  height: 1075px;
+  padding: 100px 0 97px;
+  text-align: center;
+}
+main .main5 img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #F8F8F8;
+  z-index: -1;
+}
+main .main5 h2 {
+  font-weight: 500;
+  font-size: 22px;
+  color: #2DB19C;
+  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+main .main5 p.subtitle {
+  display: inline-block;
+  width: 52.6%;
+  margin: 0 auto;
+  padding: 0 12px;
+  color: #333434;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+main .main5 .events_boxes {
+  width: 61.5%;
+  height: 560px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+main .main5 .events_boxes .event {
+  background: #F8F8F8;
+  width: 48.6%;
+  height: 170px;
+  border-radius: 5px;
+  padding: 30px;
+}
+main .main5 .events_boxes .event:hover {
+  background: white;
+  border-left: 4px solid #2DB19C;
+  box-shadow: 0px 5px 50px 2px lightgray;
+}
+main .main5 .events_boxes .event:hover .date_event button {
+  background: #3F3A64;
+  color: white;
+}
+main .main5 .events_boxes .event .info_event {
+  width: 73%;
+  height: 100%;
+  float: left;
+  text-align: left;
+}
+main .main5 .events_boxes .event .info_event i {
+  color: #7E7E7E;
+}
+main .main5 .events_boxes .event .info_event span {
+  color: #7E7E7E;
+  font-size: 14px;
+  margin-left: 7px;
+}
+main .main5 .events_boxes .event .info_event p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #333333;
+  margin-top: 10px;
+}
+main .main5 .events_boxes .event .date_event {
+  width: calc(100% - 73%);
+  height: 100%;
+  float: right;
+}
+main .main5 .events_boxes .event .date_event span {
+  display: block;
+}
+main .main5 .events_boxes .event .date_event span:first-of-type {
+  margin: -15px 0 15px;
+  height: 40%;
+  font-size: 50px;
+  color: #2DB19C;
+}
+main .main5 .events_boxes .event .date_event span:last-of-type {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+main .main5 .events_boxes .event .date_event button {
+  background: #2DB19C;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  height: 33px;
+}
+main .main5 .events_boxes .event .date_event button:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+main .main5 .events_boxes .event .date_event button:hover {
+  background: #3F3A64;
+  color: white;
+}
+main .main5 p {
+  margin-top: 60px;
+  color: #696969;
+  font-weight: 500;
+  font-size: 17px;
+}
+main .main5 p a {
+  color: #2DB19C;
+  font-weight: 700;
+  text-decoration: underline;
 }

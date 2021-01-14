@@ -95,7 +95,7 @@ main{
         height: 100%;
         float: left;
         border-radius: 5px;
-        box-shadow: 0px 10px 70px 3px #F0F0F0;
+        box-shadow: 0px 5px 50px 2px lightgray;
         overflow: hidden;
         img{
           width: 100%;
@@ -195,6 +195,7 @@ main{
         float: left;
         border-radius: 5px;
         overflow: hidden;
+        cursor: pointer;
         &:hover .text_inside_box_explore4 .card_main3_on_hover{
           display: block;
         }
@@ -316,6 +317,7 @@ main{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        cursor: pointer;
       }
     }
 
@@ -343,6 +345,7 @@ main{
       i{
         margin-right: 20px;
         font-size: 25px;
+        cursor: pointer;
       }
       p{
         margin-left: 45px;
@@ -365,5 +368,116 @@ main{
     }
   }
   // fine_main4
+
+  // main5
+  .main5{
+    position: relative;
+    width: 100%;
+    height: 1075px;
+    padding: 100px 0 97px;
+    text-align: center;
+    img{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      background: #F8F8F8;
+      z-index: -1;
+    }h2{
+      @include sectionGreenTitle;
+      margin-bottom: 15px;
+    }
+    p.subtitle{
+      display: inline-block;
+      width: 52.6%;
+      margin: 0 auto;
+      padding: 0 12px;
+      color: #333434;
+      font-size: 45px;
+      font-weight: 600;
+      margin-bottom: 60px;
+    }
+    .events_boxes{
+      width: 61.5%;
+      height: 560px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-content: space-between;
+      flex-wrap: wrap;
+
+      .event{
+        background: #F8F8F8;
+        width: 48.6%;
+        height: 170px;
+        border-radius: 5px;
+        padding: 30px;
+        &:hover{
+          background: white;
+          border-left: 4px solid #2DB19C;
+          box-shadow: 0px 5px 50px 2px lightgray;
+        }
+        &:hover .date_event button{
+          background: #3F3A64;
+          color: white;
+        }
+
+        .info_event{
+          width: 73%;
+          height: 100%;
+          float: left;
+          text-align: left;
+          i{
+            color: #7E7E7E;
+          }
+          span{
+            color: #7E7E7E;
+            font-size: 14px;
+            margin-left: 7px;
+          }
+          p{
+            font-weight: 600;
+            font-size: 18px;
+            color: #333333;
+            margin-top: 10px;
+          }
+        }
+        .date_event{
+          width: calc(100% - 73%);
+          height: 100%;
+          float: right;
+          span{
+            display: block;
+          }
+          span:first-of-type{
+            margin: -15px 0 15px;
+            height: 40%;
+            font-size: 50px;
+            color: #2DB19C;
+          }
+          span:last-of-type{
+            font-weight: 600;
+            margin-bottom: 5px;
+          }
+          button{
+            @include buttonGreen;
+            width: 100%;
+            height: 33px;
+          }
+        }
+      }
+    }
+    p{
+      margin-top: 60px;
+      color: #696969;
+      font-weight: 500;
+      font-size: 17px;
+      a{
+        color: #2DB19C;
+        font-weight: 700;
+        text-decoration: underline;
+      }
+    }
+  }
+  // fine_main5
 
 }
