@@ -97,6 +97,9 @@ main{
         border-radius: 5px;
         box-shadow: 0px 5px 50px 2px lightgray;
         overflow: hidden;
+        &:hover img{
+          width: 105%;
+        }
         img{
           width: 100%;
         }
@@ -206,6 +209,9 @@ main{
         &:hover .text_inside_box_explore4{
           height: 73.5%;
         }
+        &:hover img{
+          width: 105%;
+        }
         img{
           position: absolute;
           top: 0;
@@ -306,6 +312,10 @@ main{
       transform: translate(-114.8%, -48%);
       border-radius: 5px;
       overflow: hidden;
+      &:hover img:first-of-type{
+        width: 105%;
+        height: 105%;
+      }
       img:first-of-type{
         width: 100%;
         height: 100%;
@@ -605,7 +615,7 @@ main{
   }
   main .main1 .lets_dream_box_x6 .box_x6 {
     padding-top: 0;
-    &:hover{
+    &:hover img{
       width: 41px;
     }
   }
@@ -727,7 +737,7 @@ main{
   }
   main .main1 .lets_dream_box_x6 .box_x6 {
     padding-top: 20px;
-    &:hover{
+    &:hover img{
       width: 45px;
     }
   }
@@ -850,7 +860,7 @@ main{
   }
   main .main1 .lets_dream_box_x6 .box_x6 {
     padding-top: 20px;
-    &:hover{
+    &:hover img{
       width: 55px;
     }
   }

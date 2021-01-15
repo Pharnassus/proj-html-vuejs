@@ -209,7 +209,7 @@ header .jumbotron .jumbotron_img img:last-child {
   }
 
   header .header_nav .navbar ul li {
-    padding-right: 12px;
+    padding-right: 8px;
   }
 
   header .header_nav .navbar ul {
@@ -490,6 +490,9 @@ main .main2 .box_explore3 .inside_box_explore3 {
   box-shadow: 0px 5px 50px 2px lightgray;
   overflow: hidden;
 }
+main .main2 .box_explore3 .inside_box_explore3:hover img {
+  width: 105%;
+}
 main .main2 .box_explore3 .inside_box_explore3 img {
   width: 100%;
 }
@@ -596,6 +599,9 @@ main .main3 .box_explore4 .inside_box_explore4:hover .text_inside_box_explore4 s
 main .main3 .box_explore4 .inside_box_explore4:hover .text_inside_box_explore4 {
   height: 73.5%;
 }
+main .main3 .box_explore4 .inside_box_explore4:hover img {
+  width: 105%;
+}
 main .main3 .box_explore4 .inside_box_explore4 img {
   position: absolute;
   top: 0;
@@ -691,6 +697,10 @@ main .main4 .player {
   transform: translate(-114.8%, -48%);
   border-radius: 5px;
   overflow: hidden;
+}
+main .main4 .player:hover img:first-of-type {
+  width: 105%;
+  height: 105%;
 }
 main .main4 .player img:first-of-type {
   width: 100%;
@@ -995,7 +1005,7 @@ main .main6 .circle_slider i {
   main .main1 .lets_dream_box_x6 .box_x6 {
     padding-top: 0;
   }
-  main .main1 .lets_dream_box_x6 .box_x6:hover {
+  main .main1 .lets_dream_box_x6 .box_x6:hover img {
     width: 41px;
   }
 
@@ -1128,7 +1138,7 @@ main .main6 .circle_slider i {
   main .main1 .lets_dream_box_x6 .box_x6 {
     padding-top: 20px;
   }
-  main .main1 .lets_dream_box_x6 .box_x6:hover {
+  main .main1 .lets_dream_box_x6 .box_x6:hover img {
     width: 45px;
   }
 
@@ -1260,7 +1270,7 @@ main .main6 .circle_slider i {
   main .main1 .lets_dream_box_x6 .box_x6 {
     padding-top: 20px;
   }
-  main .main1 .lets_dream_box_x6 .box_x6:hover {
+  main .main1 .lets_dream_box_x6 .box_x6:hover img {
     width: 55px;
   }
 
