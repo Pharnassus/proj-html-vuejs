@@ -419,6 +419,9 @@ main .main1 .lets_dream_box_x6 .box_x6 p {
   font-size: 13.5px;
   color: #717171;
 }
+main .main1 .lets_dream_box_x6 .box_x6:hover img {
+  width: 70px;
+}
 main .main1 button {
   background: #2DB19C;
   cursor: pointer;
@@ -982,7 +985,7 @@ main .main6 .circle_slider i {
   }
 
   main .main1 .lets_dream_box_x6 .box_x6 img {
-    width: 41px;
+    width: 38px;
   }
 
   main .main1 .lets_dream_box_x6 {
@@ -991,6 +994,9 @@ main .main6 .circle_slider i {
 
   main .main1 .lets_dream_box_x6 .box_x6 {
     padding-top: 0;
+  }
+  main .main1 .lets_dream_box_x6 .box_x6:hover {
+    width: 41px;
   }
 
   main .main1 .lets_dream_box_x6 .box_x6 h3 {
@@ -1112,7 +1118,7 @@ main .main6 .circle_slider i {
   }
 
   main .main1 .lets_dream_box_x6 .box_x6 img {
-    width: 45px;
+    width: 40px;
   }
 
   main .main1 .lets_dream_box_x6 {
@@ -1121,6 +1127,9 @@ main .main6 .circle_slider i {
 
   main .main1 .lets_dream_box_x6 .box_x6 {
     padding-top: 20px;
+  }
+  main .main1 .lets_dream_box_x6 .box_x6:hover {
+    width: 45px;
   }
 
   main .main1 .lets_dream_box_x6 .box_x6 h3 {
@@ -1241,7 +1250,7 @@ main .main6 .circle_slider i {
   }
 
   main .main1 .lets_dream_box_x6 .box_x6 img {
-    width: 55px;
+    width: 50px;
   }
 
   main .main1 .lets_dream_box_x6 {
@@ -1250,6 +1259,9 @@ main .main6 .circle_slider i {
 
   main .main1 .lets_dream_box_x6 .box_x6 {
     padding-top: 20px;
+  }
+  main .main1 .lets_dream_box_x6 .box_x6:hover {
+    width: 55px;
   }
 
   main .main1 .lets_dream_box_x6 .box_x6 h3 {

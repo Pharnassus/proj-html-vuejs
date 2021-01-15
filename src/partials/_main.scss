@@ -37,8 +37,8 @@ main{
           font-size: 13.5px;
           color: #717171;
         }
-        img{
-          // width: 20%; per le queries
+        &:hover img{
+          width: 70px;
         }
       }
     }
@@ -598,13 +598,16 @@ main{
     font-size: 18px;
   }
   main .main1 .lets_dream_box_x6 .box_x6 img {
-    width: 41px;
+    width: 38px;
   }
   main .main1 .lets_dream_box_x6 {
     margin: 0 auto 1px;
   }
   main .main1 .lets_dream_box_x6 .box_x6 {
     padding-top: 0;
+    &:hover{
+      width: 41px;
+    }
   }
   main .main1 .lets_dream_box_x6 .box_x6 h3 {
     font-size: 14px;
@@ -717,13 +720,16 @@ main{
     font-size: 21px;
   }
   main .main1 .lets_dream_box_x6 .box_x6 img {
-    width: 45px;
+    width: 40px;
   }
   main .main1 .lets_dream_box_x6 {
     margin: 0 auto 105px;
   }
   main .main1 .lets_dream_box_x6 .box_x6 {
     padding-top: 20px;
+    &:hover{
+      width: 45px;
+    }
   }
   main .main1 .lets_dream_box_x6 .box_x6 h3 {
     text-transform: capitalize;
@@ -837,13 +843,16 @@ main{
     font-size: 26px;
   }
   main .main1 .lets_dream_box_x6 .box_x6 img {
-    width: 55px;
+    width: 50px;
   }
   main .main1 .lets_dream_box_x6 {
     margin: 0 auto 70px;
   }
   main .main1 .lets_dream_box_x6 .box_x6 {
     padding-top: 20px;
+    &:hover{
+      width: 55px;
+    }
   }
   main .main1 .lets_dream_box_x6 .box_x6 h3 {
     text-transform: capitalize;
